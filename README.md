@@ -1,5 +1,9 @@
 # SilverWare Datepicker Module
 
+[![Latest Stable Version](https://poser.pugx.org/silverware/datepicker/v/stable)](https://packagist.org/packages/silverware/datepicker)
+[![Latest Unstable Version](https://poser.pugx.org/silverware/datepicker/v/unstable)](https://packagist.org/packages/silverware/datepicker)
+[![License](https://poser.pugx.org/silverware/datepicker/license)](https://packagist.org/packages/silverware/datepicker)
+
 A polyfill module for the [SilverStripe v4][silverstripe-framework] `DateField` class to show a datepicker in
 browsers which do not yet support the HTML5 date input.
 
