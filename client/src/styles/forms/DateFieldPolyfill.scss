@@ -1,0 +1,82 @@
+/* Date Field Polyfill Styles
+===================================================================================================================== */
+
+.field {
+  
+  &.date .btr-dateinput-calendar {
+    
+    font-size: 1em;
+    transform: none;
+    border-radius: 0;
+    
+    &[aria-expanded="true"] {
+      
+      .btr-dateinput-calendar-days > thead {
+        display: none;
+      }
+      
+    }
+    
+    td:hover {
+      background: $background-hover-days none;
+    }
+    
+    .btr-dateinput-calendar-header {
+      
+      text-shadow: none;
+      border-bottom: none;
+      color: $color-text-header;
+      background: $background-header none;
+      
+      > a:hover {
+        background: $background-hover-header-button none;
+      }
+      
+    }
+    
+    .btr-dateinput-calendar-today,
+    .btr-dateinput-calendar-today:hover {
+      text-shadow: none;
+      color: $color-text-today;
+      background: $background-today none;
+    }
+    
+    .btr-dateinput-calendar-days {
+      
+      border-radius: none;
+      
+      > thead {
+        color: $color-text-header-days;
+        background: $background-header-days none;
+        border-top-color: $color-border-top-header-days;
+        border-bottom-color: $color-border-bottom-header-days;
+      }
+      
+      > tbody {
+        color: $color-text-days;
+        background: $background-days none;
+      }
+      
+    }
+    
+    .btr-dateinput-calendar-months {
+      
+      border-top: 0;
+      margin-top: 0;
+      
+      > tbody {
+        color: $color-text-months;
+        background: $background-months none;
+      }
+      
+    }
+    
+    .btr-dateinput-calendar-past,
+    .btr-dateinput-calendar-future {
+      color: $color-text-past-future;
+      background: $background-past-future;
+    }
+    
+  }
+  
+}

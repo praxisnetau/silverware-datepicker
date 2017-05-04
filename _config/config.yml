@@ -1,0 +1,19 @@
+---
+Name: silverware-datepicker
+---
+
+# Configure Admin Extensions:
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - silverware-datepicker/client/dist/styles/bundle.css
+  extra_requirements_javascript:
+    - silverware-datepicker/client/dist/js/bundle.js
+
+# Configure DateField Extensions:
+
+SilverStripe\Forms\DateField:
+  extensions:
+    - SilverWare\Datepicker\Extensions\DateFieldExtension
+  default_datepicker_format: d MMM yyyy
+  default_datepicker_polyfill: all

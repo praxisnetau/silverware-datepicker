@@ -1,0 +1,43 @@
+/* SilverWare Datepicker Variables
+===================================================================================================================== */
+
+$white: #fff;
+$black: #000;
+
+$brand-primary: #139fda !default;
+
+$background-main: #f6f7f8 !default;
+
+$gray-dark: #4f5861 !default;
+
+$gray: lighten($gray-dark, 5%) !default;
+$gray-light: lighten($gray-dark, 20%) !default;
+$gray-lighter: lighten($gray-dark, 40%) !default;
+$gray-lightest: lighten($gray-dark, 60%) !default;
+
+$border-color-dark: darken($background-main, 10) !default;
+
+$background-header: $brand-primary !default;
+$color-text-header: $white !default;
+
+$background-hover-header-button: darken($background-header, 5) !default;
+
+$background-today: $brand-primary !default;
+$color-text-today: $white !default;
+
+$background-header-days: $background-main !default;
+$color-text-header-days: $gray-light !default;
+
+$color-border-top-header-days: $white !default;
+$color-border-bottom-header-days: $border-color-dark !default;
+
+$background-days: $white !default;
+$color-text-days: $gray !default;
+
+$background-months: $white !default;
+$color-text-months: $gray !default;
+
+$color-text-past-future: $gray-lighter !default;
+$background-past-future: $white !default;
+
+$background-hover-days: $gray-lightest !default;
