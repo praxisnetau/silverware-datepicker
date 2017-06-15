@@ -17,6 +17,18 @@
       
     }
     
+    table {
+      
+      width: 100%;
+      margin: 0;
+      
+      td {
+        font-size: 1em;
+        border-bottom: 0;
+      }
+      
+    }
+    
     td:hover {
       background: $background-hover-days none;
     }

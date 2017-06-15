@@ -2,7 +2,7 @@
 Name: silverware-datepicker
 ---
 
-# Configure Admin Extensions:
+# Configure Admin Requirements:
 
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
@@ -10,7 +10,7 @@ SilverStripe\Admin\LeftAndMain:
   extra_requirements_javascript:
     - silverware-datepicker/client/dist/js/bundle.js
 
-# Configure DateField Extensions:
+# Configure Date Field:
 
 SilverStripe\Forms\DateField:
   extensions:
