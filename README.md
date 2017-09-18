@@ -4,6 +4,10 @@
 [![Latest Unstable Version](https://poser.pugx.org/silverware/datepicker/v/unstable)](https://packagist.org/packages/silverware/datepicker)
 [![License](https://poser.pugx.org/silverware/datepicker/license)](https://packagist.org/packages/silverware/datepicker)
 
+**NOTE:** this module provides a picker for `DateField` only. If you require a picker which is capable of time input
+(and hence supports `DatetimeField` and `TimeField`), please consider using the
+[SilverWare Calendar][silverware-calendar] module instead.
+
 A polyfill module for the [SilverStripe v4][silverstripe-framework] `DateField` class to show a datepicker in
 browsers which do not yet support the HTML5 date input.
 
@@ -116,4 +120,4 @@ Please see [contributing](CONTRIBUTING.md) for more information.
 [better-dateinput-polyfill]: https://github.com/chemerisuk/better-dateinput-polyfill
 [webpack]: https://webpack.js.org
 [cldr-date-format]: http://cldr.unicode.org/translation/date-time
-
+[silverware-calendar]: https://github.com/praxisnetau/silverware-calendar
