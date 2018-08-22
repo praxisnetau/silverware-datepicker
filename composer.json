@@ -1,6 +1,6 @@
 {
   "name": "silverware/datepicker",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "description": "SilverWare Datepicker Module.",
   "homepage": "https://github.com/praxisnetau/silverware-datepicker",
   "keywords": [
@@ -33,6 +33,9 @@
     "branch-alias": {
       "dev-master": "1.0.x-dev"
     },
+    "expose": [
+      "client/dist"
+    ],
     "installer-name": "silverware-datepicker"
   },
   "minimum-stability": "dev",
